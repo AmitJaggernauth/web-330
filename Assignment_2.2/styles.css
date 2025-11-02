@@ -1,0 +1,47 @@
+/*
+  Pragmatic JavaScript
+  Chapter 1
+  Programming Assignment
+
+  Author:Amit Jaggernauth
+  Date:11/2/2025
+  Filename:Assignment_2.2
+*/
+
+/* Your CSS goes here */
+body {
+  font-family: 'Trebuchet MS', sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+label, input, select, button {
+  display: block;
+  margin: 10px auto;
+}
+
+button {
+  background: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+#characterDisplay {
+  margin-top: 20px;
+  font-size: 1.2em;
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
