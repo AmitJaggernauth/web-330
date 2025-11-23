@@ -1,0 +1,64 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author:Amit Jaggernauth
+  Date:11/23/2025
+  Filename:Amit_Jaggernauth_5.2
+*/
+
+/* Add your CSS styles here */
+/* style.css */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+#message {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}

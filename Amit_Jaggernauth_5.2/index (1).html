@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--
+      Pragmatic JavaScript
+      Chapter 2
+      Programming Assignment
+
+      Author: Amit Jaggernauth
+      Date: 11/23/2023
+      Filename:Amit_Jaggernauth_5.2
+    -->
+    <title>Table Reservation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="reservationForm">
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" /><br />
+        <label for="tableNumber">Table Number:</label><br />
+          <select id="table" required>
+            <option value="1">Table 1</option>
+            <option value="2">Table 2</option>
+            <option value="3">Table 3</option>
+            <option value="4">Table 4</option>
+        </select>
+        <input type="number" id="tableNumber" name="tableNumber" /><br />
+        <input type="submit" value="Reserve" />
+      </form>
+      <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
